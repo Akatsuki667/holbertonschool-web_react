@@ -30,3 +30,5 @@
             - Property should be a string
             - Type of this property can be anything
 
+## 2. Extending the Teacher class
+- Write an interface named `Directors` that extends `Teacher`. It requires an attribute named `numberOfReports(number)`
