@@ -82,3 +82,22 @@ Create a function `createEmployee` with the following requirements:
     - It accepts 1 arguments:
         - `salary`(either number or string)
     - if `salary` is a number and less than 500 - It should return a new `Teacher`. Otherwise it should return a Director
+
+## 6. Creating functions specific to employees
+- Write a function `isDirector`:
+
+    - it accepts `employee` as an argument
+    - it will be used as a type predicate and if the employee is a director
+
+- Write a function `executeWork`:
+
+    - it accepts `employee` as an argument
+    - if the employee is a Director, it will call `workDirectorTasks`
+    - if the employee is a Teacher, it will call `workTeacherTasks`
+
+## 7. String literal types
+- Write a String literal type named `Subjects` allowing a variable to have the value `Math` or `History` only. Write a function named `teachClass`:
+
+    - it takes `todayClass` as an argument
+    - it will return the string`Teaching Math` if `todayClass` is `Math`
+    - it will return the string `Teaching History` if `todayClass` is `History`
